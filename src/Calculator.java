@@ -9,6 +9,14 @@ public class Calculator {
 		
 		result = calculator.subtract(2,3);
 		System.out.println(result);
+		
+		result = calculator.multiply(2,3);
+		System.out.println(result);
+	}
+
+	private int multiply(int i, int j) {
+		// TODO Auto-generated method stub
+		return i * j;
 	}
 
 	private int subtract(int i, int j) {
