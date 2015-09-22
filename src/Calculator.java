@@ -10,6 +10,9 @@ public class Calculator {
 		result = calculator.subtract(2,3);
 		System.out.println(result);
 		
+		result = calculator.multiply(2,3);
+		System.out.println(result);
+
 		result = calculator.divine(6,2);
 		System.out.println(result);
 		
@@ -18,6 +21,12 @@ public class Calculator {
 	private int divine(int i, int j) {
 		// TODO Auto-generated method stub
 		return i / j;
+	}
+
+	private int multiply(int i, int j) {
+		// TODO Auto-generated method stub
+		return i * j;
+
 	}
 
 	private int subtract(int i, int j) {
